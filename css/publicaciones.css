@@ -1,0 +1,171 @@
+#header {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(pink, pink, #f165f7, #f1abff, white);
+    border: 0px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    text-align: right;
+    padding: 20px 40px 0 0;
+    background: black;
+}
+
+* nav > a{
+    color:white;
+    padding: 10px;
+    margin: 3px;
+    float: left;
+}
+
+nav > a:hover{
+    background: linear-gradient(darkblue,purple);
+    color:white;
+} 
+
+#imagenes {
+    margin-left: 50px;
+    float: right;
+    width: 250px;
+    height: 445px;
+    border: 0px;
+    padding: 25px;
+}
+
+#titulo {
+    position: center;
+    margin-top: 50%;
+}
+
+#noticiap {
+    margin-top: 30px;
+    background-color: #f2d7f7;
+    width: 100%;
+    height: 750px;
+}
+
+#img {
+    border-radius:20px;
+    margin-top: 30px;
+    width: 700px;
+    height: 500px;
+    background-size: contain;
+    background-image: url(https://www.portafolio.co/files/article_multimedia/files/crop/uploads/2021/08/20/612035d89ad7e.r_1629512902138.0-61-975-793.jpeg);
+}
+
+#titulonoticia {
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+#art1 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid pink;
+    background-size: 300px contain;
+}
+
+#art2 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid pink;
+}
+
+#art3 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid pink;
+}
+
+#art4 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid pink;
+}
+
+#art5 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid pink;
+}
+
+#art6 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid pink;
+}
+
+#art7 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid pink;
+}
+
+#art8 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid pink;
+}
+
+#art9 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid pink;
+}
+
+#proy {
+    margin-top: 30px;
+    background-color: #f2d7f7;
+    width: 100%;
+    height: 750px;
+}
+
+#propia1 {
+    margin-left: 100px;
+    width: 900px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#propia2 {
+    float: right;
+    margin-right: 100px;
+    width: 900px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.cardborder {
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0,2s;
+}
+    
+    .cardborder:hover {
+        transform: scale(1.05);
+    }
+
+    /* Footer */
+
+.content-foo{
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    border-bottom: 5px solid #af20d3;
+}
+
+
+.titulo-final{
+    font-size: 30   px;
+    color: #ccc;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-top: 1px solid #7e7676;
+}
+    
